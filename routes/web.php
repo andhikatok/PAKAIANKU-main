@@ -29,7 +29,7 @@ Route::get('/manufacturing_orders/materials/{productId}', [ManufacturingOrderCon
 
 Route::get('/api/bom-materials/{productId}', [ManufacturingOrderController::class, 'getBomMaterials']);
 
-// routes/web.php ini perubahan
+// routes/web.php ini perubahan lagi
 Route::get('/manufacturing-orders/{id}/check-stock', [ManufacturingOrderController::class, 'checkStock']);
 Route::post('/manufacturing-orders/{id}/start-production', [ManufacturingOrderController::class, 'startProduction']);
 
